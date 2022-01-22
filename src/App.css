@@ -12,6 +12,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding: 16px;
 }
 
 button {
@@ -19,6 +20,25 @@ button {
   font-size: 48px;
   margin-top: 50px;
   cursor: pointer;
+}
+
+.gif {
+  border: 1px solid white;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  margin: 16px;
+  color: white;
+  text-decoration: none;
+}
+
+.gif h4 {
+  margin: 0;
+}
+
+.gif img {
+  object-fit: contain;
 }
 
 
