@@ -11,7 +11,7 @@ export default function ListOfGifs ({params}) {
         getGifs({keyword}).then(gifs=>setGifs(gifs)); 
   }, [keyword]);
 
-  return 
+  return (
     <div>
         {     
             gifs.map(({id, url, title})=> 
@@ -25,6 +25,8 @@ export default function ListOfGifs ({params}) {
             )
         }
     </div> 
+  )
+
 };
 
 
